@@ -1,4 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: black;
+  overflow-x: hidden;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }

@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
+import "./component.css"
 
 export class Previewer extends Component {
     render() {
         return (
-          <div id="preview">
-            <div dangerouslySetInnerHTML={this.props.getMarkdownText}></div>
+          <div>
+            <div id="preview">
+              <article>Previewer</article>
+              <div dangerouslySetInnerHTML={this.props.getMarkdownText}></div>
+            </div>
           </div>
         );
     }

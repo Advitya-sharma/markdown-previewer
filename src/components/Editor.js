@@ -1,13 +1,18 @@
 import React, { Component } from "react";
-export class Editor extends Component {
-  state = {
-    value: "",
-  };
+import "./component.css";
 
+
+
+export class Editor extends Component {
   render() {
     return (
       <div>
+          <article>
+              Editor
+          </article>
         <textarea
+          id="edit"
+          placeholder="Enter text"
           onChange={this.props.handelChange.bind(this)}
           value={this.props.value}
         ></textarea>

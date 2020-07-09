@@ -1,0 +1,31 @@
+div {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+article {
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  background-color: #9918D3;
+  margin-bottom: 0;
+}
+#edit {
+  height: 300px;
+  width: 100%;
+  margin-top: 0;
+  background-color: #39e37b;
+}
+#preview {
+  height: auto;
+  min-height: 250px;
+  margin-top: 20px;
+  background-color: #39e37b;
+}
+textarea {
+  min-height: 50%;
+  min-width: 50%;
+  height: 100%;
+  width: 100%;
+  border-width: 0;
+}
