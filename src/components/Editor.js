@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "./component.css";
 
-
-
 export class Editor extends Component {
   render() {
     return (
